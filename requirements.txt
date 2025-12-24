@@ -1,0 +1,15 @@
+# ============================================
+# Media Recommender System - Dependencies
+# ============================================
+
+# For Vercel deployment (minimal)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# ============================================
+# OPTIONAL - For local development with ML:
+# ============================================
+# pip install torch numpy pandas scikit-learn
+# pip install transformers tokenizers
+# pip install pytest tqdm pyyaml requests
